@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 开启IE最新浏览模式 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 初始化移动端浏览显示 ，宽度适配设备宽度，缩放比为 1-->
+    <title>lemon_knight_management_tool</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.2\dist\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
+
+    <style type="text/css">
+    .try{
+      text-align: center;
+      background-color: #222;
+    }
+    .try ul{
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      padding:0;
+    }
+    .try a{
+      display: block;
+    }
+    .try a:hover{
+      background-color: white;
+    }
+    .mid{
+      line-height: 50px;
+    }
+
+    .tab-center{
+      text-align: center;
+    }
+    .tab-center div{
+      margin:0 auto;
+      margin-bottom: 2px;
+    }
+
+    .form-cent{
+      margin: 0 auto;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse"><!-- 添加 navbar-fixed-top使导航条固定在页面顶部 -->
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Lemon</a><!-- 需要放入主页链接!!!!!!!!!! -->
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">登录</a></li>
+      </ul>
+    </div>
+
+    </div>
+    </nav>
+
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                              <ul class="nav side-nav try">
+                                    <li>
+                                      <a href="#" data-toggle="collapse" data-target="#User">账户管理</a>
+                                      <ul id="User" class="collapse">
+                                        <li ><a href="User1.html" class="mid">账户浏览</a></li>
+                                        <li class="active"><a href="User2.html" class="mid">添加账户</a></li>
+                                      </ul>
+                                    </li>
+                                    
+                                    <li>
+                                      <a href="#" data-toggle="collapse" data-target="#Commodity">商品管理</a>
+                                      <ul id="Commodity" class="collapse">
+                                        <li><a href="#" class="mid">已有商品</a></li>
+                                        <li><a href="#" class="mid">添加新品</a></li>
+                                      </ul>
+                                    </li>
+
+
+                                    <li>
+                                      <a href="#" data-toggle="collapse" data-target="#Order">订单管理</a>
+                                      <ul id="Order" class="collapse">
+                                        <li><a href="#" class="mid">订单浏览</a></li>
+                                        <li><a href="#" class="mid">订单录入</a></li>
+                                        <li><a href="#" class="mid">回收站</a></li>
+                                      </ul>
+                                    </li>
+                              </ul>
+                        </div> 
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid" id="page-wrapper">
+      <div class="row">
+          <div class="col-md-12 page-header">
+            <h1>账户添加</h1>        
+          </div>
+            <div class="col-md-12 form-cent">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label for="inputID" class="col-sm-2 control-label">ID</label>
+                  <div class="col-sm-4">
+                    <input type="email" class="form-control" id="inputID" placeholder="输入学号作为ID">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputName" class="col-sm-2 control-label">姓名</label>
+                  <div class="col-sm-4">
+                    <input type="password" class="form-control" id="inputName" placeholder="姓名">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputSex" class="col-sm-2 control-label">性别</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 男
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 女
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputWork" class="col-sm-2 control-label">工种</label>
+                  <div class="col-sm-2">
+                    <select class="form-control">
+                        <option>客服</option>
+                        <option>客服兼设计师</option>
+                        <option>加工人员</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputTel" class="col-sm-2 control-label">联系方式</label>
+                  <div class="col-sm-4">
+                    <input type="password" class="form-control" id="inputTel" placeholder="联系电话">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputTime" class="col-sm-2 control-label">工作时间</label>
+                  <div class="col-sm-4">
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">完成添加</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+    
+
+  
+
+
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap-3.3.2\dist\js\bootstrap.min.js"></script>
+  </body>
+</html>
