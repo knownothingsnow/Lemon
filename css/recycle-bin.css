@@ -1,0 +1,42 @@
+.page-header{
+	margin-top: 24px;
+}
+
+.list-group li{
+	margin-top: 10px;
+}
+
+.btn-icno{
+	position: absolute;
+	right:18px;
+	bottom: 18px;
+}
+
+li p{
+	display: inline;
+}
+
+li h4 a{
+	color: #000;
+}
+
+.col-md-3.col-lg-2 {
+  margin-top: 10px;
+}
+
+.btn-toolbar{
+	margin-bottom: 20px;
+}
+
+.list-group-item{
+	color:#000;
+	border-radius: 4px;
+}
+.list-group-item-default{
+	background-color: #DDD8F0;
+}
+
+.list-group-item-primary{
+	background-color: #F2E2A0;
+}
+

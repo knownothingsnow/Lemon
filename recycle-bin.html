@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>回收站</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/recycle-bin.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse"><!-- 添加 navbar-fixed-top使导航条固定在页面顶部 -->
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Lemon</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">登录</a></li>
+      </ul>
+    </div>
+
+    </div>
+    </nav>
+    
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav side-nav">
+        <li role="presentation"><a href="index.html">浏览订单</a></li>
+        <li role="presentation"><a href="input.html">录入订单</a></li>
+        <li role="presentation"><a href="#">设计订单</a></li>
+        <li role="presentation"><a href="recycle-bin.html">回收站</a></li>
+        </ul>
+    </div>
+    <div class="container-fluid" id="page-wrapper">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 page-header">
+          <h1>回收站&nbsp&nbsp&nbsp<small>被撤销的订单都在这里</small></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 col-lg-10">
+        <ul class="list-group"><!-- 七种颜色代表七种订单状态 -->
+          <li class="list-group-item list-group-item-danger">
+            <h4><strong>淘宝订单编号:</strong><a href="#">942331274204252</a></h4>
+            <p><strong>买家旺旺ID:</strong>侠盗飞车</p>
+            <p><strong>类型:</strong>白色/台灯</p>
+            <p><strong>录入时间:</strong>2015-1-21</p>
+            <p><strong>收货人:</strong>张三丰</p>
+            <p><strong>电话:</strong>12773847451</p>
+            <div class="btn-group btn-icno" role="group">
+              <button type="button" class="btn btn-default" title="设计订单"><i class="icon-plus-sign-alt icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="详细信息"><i class="icon-list-ul icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="编辑订单"><i class="icon-cog icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="撤销订单"><i class="icon-share-alt icon-2x"></i></button>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-warning">
+            <h4><strong>淘宝订单编号:</strong><a href="#">942331274204252</a></h4>
+            <p><strong>买家旺旺ID:</strong>侠盗飞车</p>
+            <p><strong>类型:</strong>白色/台灯</p>
+            <p><strong>录入时间:</strong>2015-1-21</p>
+            <p><strong>收货人:</strong>张三丰</p>
+            <p><strong>电话:</strong>12773847451</p>
+            <div class="btn-group btn-icno" role="group">
+              <button type="button" class="btn btn-default" title="设计订单"><i class="icon-plus-sign-alt icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="详细信息"><i class="icon-list-ul icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="编辑订单"><i class="icon-cog icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="撤销订单"><i class="icon-share-alt icon-2x"></i></button>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-danger">
+            <h4><strong>淘宝订单编号:</strong><a href="#">942331274204252</a></h4>
+            <p><strong>买家旺旺ID:</strong>侠盗飞车</p>
+            <p><strong>类型:</strong>白色/台灯</p>
+            <p><strong>录入时间:</strong>2015-1-21</p>
+            <p><strong>收货人:</strong>张三丰</p>
+            <p><strong>电话:</strong>12773847451</p>
+            <div class="btn-group btn-icno" role="group">
+              <button type="button" class="btn btn-default" title="设计订单"><i class="icon-plus-sign-alt icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="详细信息"><i class="icon-list-ul icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="编辑订单"><i class="icon-cog icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="撤销订单"><i class="icon-share-alt icon-2x"></i></button>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-warning">
+            <h4><strong>淘宝订单编号:</strong><a href="#">942331274204252</a></h4>
+            <p><strong>买家旺旺ID:</strong>侠盗飞车</p>
+            <p><strong>类型:</strong>白色/台灯</p>
+            <p><strong>录入时间:</strong>2015-1-21</p>
+            <p><strong>收货人:</strong>张三丰</p>
+            <p><strong>电话:</strong>12773847451</p>
+            <div class="btn-group btn-icno" role="group">
+              <button type="button" class="btn btn-default" title="设计订单"><i class="icon-plus-sign-alt icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="详细信息"><i class="icon-list-ul icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="编辑订单"><i class="icon-cog icon-2x"></i></button>
+              <button type="button" class="btn btn-default" title="撤销订单"><i class="icon-share-alt icon-2x"></i></button>
+            </div>
+          </li>
+        </ul>
+
+        <div class="btn-toolbar" role="toolbar">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">1</button>
+            <button type="button" class="btn btn-default">2</button>
+            <button type="button" class="btn btn-default">3</button>
+            <button type="button" class="btn btn-default">4</button>
+            <button type="button" class="btn btn-default">5</button>
+            <button type="button" class="btn btn-default">6</button>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 col-lg-2">
+
+        </div>
+        </div>
+    </div>
+        </div>
+
+    
+
+  
+
+
+
+          
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/customer-servicer.js"></script>
+  </body>
+</html>
