@@ -17,7 +17,7 @@ body {
     background-color: #222;
     overflow-y: auto; 
     text-align: center;
-}
+}/*左侧导航*/
 
 .side-nav>ul{
 	background-color: #333;
@@ -43,5 +43,5 @@ body {
 	margin-left: 180px;
 	height: auto;
 	background-color: #fff;
-}
+}/*白色背景主体部分*/
 

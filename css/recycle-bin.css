@@ -1,6 +1,6 @@
 .page-header{
 	margin-top: 24px;
-}
+}/*定位页面标题*/
 
 .list-group li{
 	margin-top: 10px;
@@ -10,7 +10,7 @@
 	position: absolute;
 	right:18px;
 	bottom: 18px;
-}
+}/*定位列表项上的四个按钮*/
 
 li p{
 	display: inline;
@@ -22,21 +22,22 @@ li h4 a{
 
 .col-md-3.col-lg-2 {
   margin-top: 10px;
-}
+}/*向下移动检索区*/
 
 .btn-toolbar{
 	margin-bottom: 20px;
-}
+}/*向上移动分页按钮*/
 
 .list-group-item{
 	color:#000;
 	border-radius: 4px;
-}
+}/*重写列表项*/
+
 .list-group-item-default{
 	background-color: #DDD8F0;
-}
+}/*增加两种列表项颜色状态*/
 
 .list-group-item-primary{
 	background-color: #F2E2A0;
-}
+}/*增加两种列表项颜色状态*/
 
