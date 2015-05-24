@@ -1,42 +1,11 @@
-.form-control{
-    width: 30%;
-}/*重写*/
-
-/*div.form-group{*/
-    /*display: inline;*/
-/*}*/
-
-/*@media (min-width: 768px){
-    .form-inline .form-group{
-        margin-bottom: 15px;
-    }}/*重写*/
-.form-group,.dropdown{
-    margin-bottom: 25px;
-}/*重写*/
-
-.form-input{
+div.form-group{
+    padding: 0;
+    margin: 0 50px;
     display: inline-block;
 }
 
-#form-input-1{
-    margin-right: 20px;
+.row{
+    margin-bottom: 60px;
+    margin-left: 0;
+    margin-right: 0;
 }
-
-#tbNumber,#customerId{
-    width: 380px;
-    margin: 0;
-}
-
-#dd-1,#dd-2{
-    display: inline-block;
-}/*dd就是dropdown简写,此处控制两个按钮样式*/
-
-#dd-2{
-    margin-left: 306px;
-    margin-right: 190px;
-}
-
-#form-input-3{
-    margin-left: 12px;
-}
-

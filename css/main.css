@@ -14,6 +14,10 @@ body {
 
 .wrapper{
 	min-height: 100%;
+	margin-top: -20px;
+}
+.nav{
+	margin-bottom: 0;
 }
 
 .side-nav{
@@ -35,16 +39,17 @@ body {
 }
 
 .side-nav li{
-	width: 200px;
-	height: 50px;
 	list-style: none;
-	line-height: 50px;
 }
 
 .side-nav li>a{
 	color: #9d9d9d;
 	text-decoration: none;
-	font-size: 15	px;
+	font-size: 15px;
+	width: 200px;
+	height: 50px;
+	display: block;
+	line-height: 50px;
 }
 
 .side-nav li:hover{
@@ -56,14 +61,27 @@ body {
 }
 /*主体内容区*/
 
-#header-of-page{
-	font-size: 28px;
-	margin-top: -30px;
-	margin-left: 100px;
-}
+@media (min-width: 1330px) {
+	#header-of-page{
+		font-size: 28px;
+		margin-top: -30px;
+		margin-left: 100px;
+	}
 
-#header-of-page>small{
-	margin: 0 50px;
+	#header-of-page>small{
+		margin: 0 50px;
+	}
 }
-/*定位页面标题*/
+/*定位页面标题,使用媒体查询适应1366和1920px宽度分辨率*/
 
+@media (min-width: 1900px) {
+	#header-of-page{
+		font-size: 28px;
+		margin-top: -10px;
+		margin-left: 100px;
+	}
+
+	#header-of-page>small{
+		margin: 0 50px;
+	}
+}
