@@ -1,0 +1,15 @@
+.row-1{
+    margin:0 auto;
+}
+
+.pic-show{
+    width: 70%;
+    margin: 20px auto;
+    border: solid 2px #767676;
+    padding: 10px;
+}
+/*ͼƬչʾ��*/
+
+img{
+    width:100%;
+}

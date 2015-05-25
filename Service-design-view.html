@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit"><!--使360开启极速模式-->
+    <title>客服设计页面</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/design-view.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid" id="container-fluid-nav">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="Service-index.html">Lemon</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="wrapper">
+    <div class="side-nav">
+        <ul>
+            <li><a href="Service-index.html">浏览订单</a></li>
+            <li><a href="Service-input.html">录入订单</a></li>
+            <li><a href="Service-design-view.html">设计订单</a></li>
+            <li><a href="Service-recycle-bin.html">回收站</a></li>
+        </ul>
+    </div><!--side-nav end-->
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 page-header">
+                    <h1 id="header-of-page">设计订单<small>这是你接受的设计任务</small></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 col-lg-10">
+                    <ul class="list-group"><!-- 七种颜色代表七种订单状态 -->
+                        <li class="list-group-item list-group-item-danger">
+                            <div>
+                                <h4><strong>淘宝订单编号:</strong><a href="#">942331274204252</a></h4>
+                                <p><strong>录入客服:</strong>李四</p>
+                            </div>
+                            <p><strong>买家旺旺ID:</strong>侠盗飞车</p>
+                            <p><strong>类型:</strong>白色/台灯</p>
+                            <p><strong>录入时间:</strong>2015-1-21</p>
+                            <p><strong>电话:</strong>12773847451</p>
+                            <div class="btn-group btn-icno" role="group">
+                                <button type="button" class="btn btn-default" title="设计订单"><i class="icon-plus-sign-alt icon-2x"></i></button>
+                                <button type="button" class="btn btn-default" title="详细信息"><i class="icon-list-ul icon-2x"></i></button>
+                                <button type="button" class="btn btn-default" title="编辑订单"><i class="icon-cog icon-2x"></i></button>
+                                <button type="button" class="btn btn-default" title="撤销订单"><i class="icon-share-alt icon-2x"></i></button>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <div class="btn-toolbar" role="toolbar">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default">1</button>
+                            <button type="button" class="btn btn-default">2</button>
+                            <button type="button" class="btn btn-default">3</button>
+                            <button type="button" class="btn btn-default">4</button>
+                            <button type="button" class="btn btn-default">5</button>
+                            <button type="button" class="btn btn-default">6</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2">
+            </div>
+        </div><!--container-fluid end-->
+    </div><!--content end-->
+</div><!--wrapper end-->
+
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
