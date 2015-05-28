@@ -2,6 +2,14 @@
     margin:0 auto;
 }
 
+div.col-md-4 input{
+    display: inline-block;
+}
+
+input.form-control{
+    width: auto;
+}/*ÖØÐ´*/
+
 .pic-show{
     width: 70%;
     margin: 20px auto;
