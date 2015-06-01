@@ -1,0 +1,33 @@
+/*为导航栏增添样式*/
+    .try{
+      text-align: center;
+      background-color: #222;
+    }
+
+    .try ul{
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      padding:0;
+    }
+    .try a{
+      display: block;
+    }
+    .try a:hover{
+      background-color: white;
+    }
+    .mid{
+      line-height: 50px;
+    }
+
+    .tab-center{
+      text-align: center;
+    }
+    .tab-center div{
+      margin:0 auto;
+      margin-bottom: 2px;
+    }
+
+        .form-cent{
+      margin: 0 auto;
+    }
